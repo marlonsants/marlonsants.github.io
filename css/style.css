@@ -1,0 +1,180 @@
+body{
+	font-family: serif;
+	background-image: url("../images/planoDeFundo.jpg");
+	color: white;
+}
+.titulo{
+	position:relative;
+	font-size: 38px;
+	margin-botom:2em;
+	
+}
+#tituloPt{
+	width:400px;
+	margin:15px auto;
+	font-family: fantasy;
+}
+
+
+#informacoes{
+	display:inline-block;
+	position: relative;
+	float:left;
+	margin-top:6em;
+	margin-left: 3em;
+}
+
+#informacoes span{
+	font-weight: bolder;
+}
+
+
+#poster{
+	position:relative;
+	display:inline-block;
+	float:left;
+	padding: 0px;
+	margin: 0px;
+}
+
+#poster>img{
+	width:950px;
+	height:170px;
+	padding-bottom: 0px;
+	margin-right:0px;
+	margin-left:2em;
+	border-radius: 70px 0px 70px 0px;
+	
+}
+
+#sinopse{
+	position:relative;
+	display: block;
+	margin-left: 450px;
+	width: 600px;
+	height: 200px;
+	/*top:745px;*/
+	font-size: 18px;
+	
+
+		
+}
+
+#sinopse > p:first-child{
+	font-size: 24px;
+	font-weight: bold;
+}
+
+#imagensDoFilme{
+	padding: 0px;
+	margin: 0px;
+}
+
+#imagensDoFilme:hover{
+	cursor: zoom-in;
+}
+
+#imagensDoFilme img{
+	display: block;
+	width:300px;
+	height: 188.7px;
+	margin-left: 0px;
+	padding: 0px;
+	margin-bottom: 15px;
+	border-radius: 15px;
+}
+
+#imagensDoFilme > img:first-child 	{
+	margin-top: -10px;
+		
+}
+
+#imagemAmpliada {
+	display: inline-block;
+	width: 850px;
+	height: 450px;
+}
+#imagemAmpliada > img{
+	position: relative;
+    display: inline-block;
+    margin-right: 100px;
+    margin-top: 10px;
+    width: 850px;
+    height: 450px;
+    margin-left: 30px;
+}
+
+#trailer{
+	position: relative;
+	display: inline-block;
+	width: 700px;
+}
+
+#trailer > iframe{
+	position: relative;
+    display: inline-block;
+    width: 700px;
+    height: 450px;
+    
+}
+
+#detalhesDoFilme{
+	background-color: #3c3a4a;
+	color: white;
+	padding: 5px;
+	border-radius: 15px;
+}
+
+#elenco{
+	position: relative;
+	display: block;
+	font-size: 28px;
+	padding-bottom: 0px;
+	padding-top: 0px;
+	margin-top: 0px;
+	margin-bottom: 10px;
+
+}
+
+
+
+#imagensDoElenco{
+	display: inline-block;
+	width: 450px;
+	height: 500px;
+	padding-top: 0px;
+	margin-top: 0px;
+}
+
+#imagensDoElenco img{
+	display: inline-block;
+	width: 150px;
+	height: 150px;
+	border-radius: 80px;
+	margin-right:10px;
+	margin-left:0px;
+}
+
+#imagensDoElenco >figure{
+	display: inline-block;
+	width: 150px;
+	height: 200px;
+	border-radius: 80px;
+	margin-right:10px;
+	padding: 0px;
+}
+
+#imagensDoElenco> figure > label{
+	position: relative;
+	display: block;
+	font-size: 16px;
+	font-family: cursive;
+	text-align: center;
+	padding-bottom: 0px;
+	
+}
+
+#imagensDoElenco > figure > span{
+	padding-bottom: 30px;
+
+}
